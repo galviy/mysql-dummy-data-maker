@@ -13,3 +13,20 @@ so yeah it just useless mysql dummy data maker for my college task and stuff, yo
 ```cmake
 cmake --build .
 ```
+
+## Modifying data source
+Adjust to your own json struct & filtering logic here
+
+```c++
+for(int i = 0; i < data["users"].size(); i++){
+			string usn = data["users"][i]["fullname"];
+      if (regex_search(usn, match, pattern)) {
+					string nim = match[0]; 
+					string nama = match.prefix();
+					if(nim[0] == '2' && nim[1] == '4' && nim[2] == '0' && nim[3] == '6' && nim[7] == '4'){
+					
+						hasil_dump.push_back({nim, nama});
+          }
+      }
+}
+```
