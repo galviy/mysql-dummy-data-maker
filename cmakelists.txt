@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(dummymaker)
+
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include_directories(
+    "vendor/mysql/include"
+    "vendor"
+)
+link_directories("vendor/mysql/lib")
+
+add_executable(mysqldump mysqldump.cpp)
+
+target_link_libraries(mysqldump mysql)

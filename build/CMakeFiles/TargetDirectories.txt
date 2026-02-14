@@ -1,0 +1,3 @@
+C:/Users/GALVIN/Desktop/semester 4/manajemen basis data/xxx/build/CMakeFiles/mysqldump.dir
+C:/Users/GALVIN/Desktop/semester 4/manajemen basis data/xxx/build/CMakeFiles/edit_cache.dir
+C:/Users/GALVIN/Desktop/semester 4/manajemen basis data/xxx/build/CMakeFiles/rebuild_cache.dir
